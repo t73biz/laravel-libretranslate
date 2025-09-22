@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "t73biz/laravel-libretranslate",
+    "description": "This is a Laravel package to connect to a LibreTranslate server.",
     "keywords": [
-        ":vendor_name",
+        "T73 Biz LLC",
         "laravel",
-        ":package_slug"
+        "laravel-libretranslate"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/t73biz/laravel-libretranslate",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Ronald Chaplin",
+            "email": "ron.chaplin@t73.biz",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "T73 Biz LLC\\LaravelLibretranslate\\": "src/",
+            "T73 Biz LLC\\LaravelLibretranslate\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "T73 Biz LLC\\LaravelLibretranslate\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -63,10 +63,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "T73 Biz LLC\\LaravelLibretranslate\\LaravelLibretranslateServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "LaravelLibretranslate": "T73 Biz LLC\\LaravelLibretranslate\\Facades\\LaravelLibretranslate"
             }
         }
     },

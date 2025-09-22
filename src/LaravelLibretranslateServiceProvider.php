@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace T73 Biz LLC\LaravelLibretranslate;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use T73 Biz LLC\LaravelLibretranslate\Commands\LaravelLibretranslateCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class LaravelLibretranslateServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,10 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('laravel-libretranslate')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_migration_table_name_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_laravel_libretranslate_table')
+            ->hasCommand(LaravelLibretranslateCommand::class);
     }
 }

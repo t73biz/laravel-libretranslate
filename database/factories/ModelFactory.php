@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\Skeleton\Database\Factories;
+namespace T73 Biz LLC\LaravelLibretranslate\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 
